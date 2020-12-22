@@ -1,0 +1,65 @@
+<html>
+	<HEAD>
+	<TITLE>Лабораторная работа №6 ИУ5-53Б Ваксина</TITLE>
+	</HEAD>
+  <body background = 6.jpg>
+    <form action="http://somesite.com/script.asp">
+	<fieldset>
+			 <label>Фамилия: <input type = text name="fam" placeholder="Морозова"></label> <hr />
+			 <label>Имя: <input type = text name="nam" placeholder="Снегурочка"></label> <hr />
+			 <label>Группа:
+			     <select size=1 name="gro">
+			         <option>ИУ5-51Б</option>
+					 <option>ИУ5-52Б</option>
+					 <option>ИУ5-53Б</option>
+					 <option>ИУ5-54Б</option>
+					 <option>ИУ5-55Б</option>
+			     </select>
+			 </label> <hr />
+			 <label>Заветные желания:</label>
+			 <input type = checkbox>Поспать</input>
+			 <input type = checkbox>Поесть</input>
+			 <input type = checkbox>Поплакать</input> <hr />
+			 <label>Электронная почта:</label>
+            <input type="email" name="email1" />
+	</fieldset>
+	<fieldset>
+            <legend align=center>Новогодняя анкета</legend>
+			<label for="pass"> Желание под бой курантов:
+                 <input type="password" name="pass" size=30/>
+            </label> <hr />
+			<label>Любимая новогодняя песня:
+			<select size=2 name="song">
+			         <option>Perry Como "Magic Moments"</option>
+					 <option>Bee Gees "Thank You For Christmas"</option>
+					 <option>Dido "Christmas Day"</option>
+					 <option>Bon Jovi "Blue Christmas"</option>
+					 <option>August Burns Red "Carol Of The Balls"</option>
+			     </select>
+			</label> <hr />
+			<label for="comp">Хочу музыкальную открытку: </label>
+            <input type="radio" name="comp" value="P3" checked>Да</input>
+            <input type="radio" name="comp" value="P4">Нет</input>
+            <hr />
+			<label>
+                Выбрать пункт самовывоза:
+                <input type="text" name="datalist1" list="comp_combobox_datalist" size=40/>
+                <datalist id="comp_combobox_datalist">
+                    <option selected value="Москва, Новогиреево, ул. Перченая, д.13">Москва, Новогиреево, ул. Перченая, д.13</option>
+                    <option value="Москва, Арбатская, ул. Арбатская, д.10">Москва, Арбатская, ул. Арбатская, д.10</option>
+                    <option value="Москва, Теплый стан, ул. Зеленая, д.45">Москва, Теплый стан, ул. Зеленая, д.45</option>
+                    <option value="Москва, Аэропорт, ул. Рижская, д.100">Москва, Аэропорт, ул. Рижская, д.100</option>
+					<option value="Москва, Марьина роща, ул. Пизанская, д.16/2">Москва, Марьина роща, ул. Пизанская, д.16/2</option>
+                </datalist>
+            </label>
+			<hr />
+            <textarea rows=7 cols=50 placeholder="Письмо волшебному дедушке..."></textarea>
+	        <label>Отправить → <input type="image" name="imgsubmit" src="12.png" width="50" height="56"
+                   alt="Графическая кнопка отправки" ismap>
+            <hr />
+			<input type="submit" value="Отправить">
+            <input type="reset" value="Очистить">
+	</fieldset>
+	</form>
+  </body>
+</html>
