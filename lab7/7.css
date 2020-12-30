@@ -1,0 +1,41 @@
+.dropdown-item{
+	color: BA55D3;
+}
+
+.h1{
+	color: 9932CC;
+	text-align: center;
+}
+
+.tex{
+	color: 4B0082;
+	text-align: center;
+}
+
+.h3{
+	color: 4B0082;
+	text-align: center;
+}
+
+section{
+	padding-top: 30px;
+}
+
+.table{
+	text-align: center;
+	border-collapse: collapse;
+    border-spacing: 0;
+    border: 2px solid #4B0082;
+	color: 9932CC;
+	padding: 10px;
+}
+.table th {
+background: #9932CC;
+color: #4B0082;
+}
+.table td, .table th {
+border-bottom: 1px solid #4B0082;
+border: 2px solid #4B0082;
+text-align: center;
+
+
